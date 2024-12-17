@@ -1,0 +1,393 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+    font-size: 16px;
+    padding: 0;
+
+}
+
+#inicial {
+    margin: 0 0 0 0;
+    background-color: #02a28f;
+    height: 2.7rem;
+    padding: 1rem;
+    justify-items: left;
+}
+
+#inicial,
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+}
+
+#inicial div {
+    margin-left: 6.2rem;
+}
+
+/* PRINCIPAL POST */
+.principal-news {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 3rem;
+}
+
+#one-news {
+    background: linear-gradient(180deg, transparent 10%, black), url(images/city-night.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.5rem;
+    color: #fff;
+    width: 46.5rem;
+    height: 24.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 0.2rem;
+}
+
+
+#one-news h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+#one-news p {
+    margin: 0 0 0.5rem 0;
+}
+
+#text-onenews {
+    padding-left: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+#postmini-news {
+    margin-left: 2rem;
+    justify-content: center;
+}
+
+.title-post {
+    background-color: #02a28f;
+    color: #fff;
+    width: 22.5rem;
+    height: 3rem;
+    border-radius: 0.6rem;
+    margin-bottom: 2.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.title-post h2 {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+.minipost {
+    display: flex;
+    padding-bottom: 2.5rem;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.minipost img {
+    width: 8.2rem;
+    height: 4.3rem;
+    border-radius: 0.8rem;
+    margin-right: 0.9rem;
+}
+
+.text-postnews h4 {
+    margin: 0;
+}
+
+.text-postnews p {
+    margin: 0.5rem 0 1.9rem 0;
+    color: #616161;
+}
+
+.date-post {
+    font-weight: 31.2rem;
+    font-size: 0.8rem;
+    color: #616161;
+}
+
+/*POSTS MAIS RECENTES*/
+.home-posting {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 4rem;
+}
+
+.title-postings {
+    background-color: #02a28f;
+    color: #fff;
+    border-radius: 1rem;
+    width: 46.5rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20rem;
+}
+
+.title-postings h2 {
+    margin: 0;
+}
+
+.title-postings p {
+    text-decoration: underline;
+    margin: 0;
+}
+
+/* CATEGORIA */
+#categoria {
+    width: 22.5rem;
+    height: 11.5rem;
+    margin-left: 2rem;
+
+}
+
+.categoria-posting {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-categoria {
+    background-color: #02a28f;
+    color: #fff;
+    border-radius: 1rem;
+    width: 22.5rem;
+    height: 3rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.title-categoria h2 {
+    margin: 0;
+    padding-left: 2rem;
+}
+
+#categoria-topics {
+    padding-top: 0;
+}
+
+#categoria-topics>ul {
+    padding: 0;
+}
+
+#categoria-topics>ul>li {
+    color: #616161;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    list-style: none;
+}
+
+#categoria-topics>ul>li>p {
+    text-align: right;
+}
+
+/*GRID-POSTING*/
+
+.grid-posting {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+
+.posting-mini {
+    justify-items: flex-start;
+    align-items: center;
+    border-radius: 1rem;
+    width: 22.5rem;
+    height: 24.7rem;
+}
+
+.title-ciano {
+    color: #02a28f;
+}
+
+.text-mini-posting {
+    padding: 0 1rem;
+}
+
+.posting-mini img {
+    image-rendering: auto;
+    border-radius: 1rem 1rem 0 0;
+    width: 22.5rem;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.posting-mini p {
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+    font-weight: 25rem;
+}
+
+.posting-mini h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 43.7rem;
+}
+
+/*Footer*/
+
+.rodape {
+    background-color: #02a28f;
+    color: #fff;
+    height: 3rem;
+    padding: 0.2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.rodape>h3 {
+    margin: 0.8rem 0 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+/* Responsividade */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Titulo incial */
+    #inicial {
+        height: 3rem;
+        width: 24rem;
+        padding: 1rem;
+        align-items: center;
+        justify-content:center;
+    }
+    #inicial h1{
+
+        padding: 1rem;
+ 
+    }
+
+    h1 {
+        font-size: 1rem;
+        padding: 0.1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    /*Principal news*/
+
+    .principal-news {
+        width: 23rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding: 2rem 0 0 0;
+    }
+
+    #one-news {
+        width: 23rem;
+        height: 24.7rem;
+    }
+
+    #postmini-news {
+        width: 23rem;
+        padding: 2rem 0 0 0;
+        margin: 0;
+    }
+
+    .title-post{
+        width: 23rem;
+        height: 2rem;
+    }
+
+    /*POSTS MAIS RECENTES*/
+    .home-posting {
+        display: flexbox;
+        flex-direction: column;
+        width: 23rem;
+        padding: 2rem 0;
+    }
+
+    .title-postings {
+        width: 23rem;
+        height: 2rem;
+        margin: 1.5rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .title-postings>h2 {
+        width: 13rem;
+        font-size: 1rem;
+    }
+
+    .minipost {
+        width: 22rem;
+    }
+
+
+
+
+    /*POSTS grid*/
+
+    .grid-posting {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+
+
+    /*CATEGORIA*/
+    #categoria {
+        width: 23rem;
+        height: 20rem;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Footer*/
+
+    .rodape {
+        height: 3rem;
+        width: 24rem;
+        padding-top: 3rem;
+        padding: 0.2rem;
+        align-items: center;
+    }
+}
